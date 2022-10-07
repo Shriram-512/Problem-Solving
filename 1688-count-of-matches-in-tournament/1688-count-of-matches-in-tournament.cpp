@@ -27,21 +27,21 @@ public:
         //sanket approach
         int match=  0;
         int tmatch = 0;
-        while(n > 1 )
-        {
-            if(n % 2 == 0)
-            {
-                match =  n / 2;
-                n -= match;   
-            }
-            else if(n % 2 == 1)
-            {
-                match =  (n / 2) + 1;
-                 n -= match;   
+//         while(n > 1 )
+//         {
+//             if(n % 2 == 0)
+//             {
+//                 match =  n / 2;
+//                 n -= match;   
+//             }
+//             else if(n % 2 == 1)
+//             {
+//                 match =  (n / 2) + 1;
+//                  n -= match;   
 
-            }
-            tmatch += match;
-        }
-        return tmatch;
+//             }
+//             tmatch += match;
+        // }
+        return n-1;
     }
 };
