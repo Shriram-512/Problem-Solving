@@ -25,8 +25,8 @@ public:
         
         
         //sanket approach
-        int match=  0;
-        int tmatch = 0;
+      //  int match=  0;
+        //int tmatch = 0;
 //         while(n > 1 )
 //         {
 //             if(n % 2 == 0)
@@ -42,6 +42,7 @@ public:
 //             }
 //             tmatch += match;
         // }
+        //return tmatch;
         return n-1;
     }
 };
